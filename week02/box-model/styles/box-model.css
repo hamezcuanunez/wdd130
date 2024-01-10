@@ -15,10 +15,11 @@
 	background-color: #bbb;
 	width: 100px;
 	height: auto;
+}
 
 blockquote {
-        margin: 0;
-    }
+    margin: 0;
+}
 
 cite {
     display: block;
