@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 * {
-    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather', sans-serif;
 }
 
 :root {
@@ -10,7 +10,7 @@
     --accent2-color: #FFFFFF;
 
     --heading-font: Merriweather;
-    --paragraph-font: Merriweather; serif;
+    --paragraph-font: sans-serif;
 
     --headline-color-on-white: #4A4E69;   
     --headline-color-on-color: #FFFFFF; 
