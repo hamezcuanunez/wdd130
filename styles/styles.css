@@ -24,7 +24,7 @@ main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
-    padding: 2px;
+    padding: 1px;
     box-shadow: 0 0 30px grey;
     float: right;
     margin: 0 0 1rem 1rem;
@@ -64,7 +64,7 @@ aside h2 {
 }
 
 main img {
-    width: 150px;
+    width: 85px;
     height: auto;
 }
 
