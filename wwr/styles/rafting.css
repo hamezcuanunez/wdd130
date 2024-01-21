@@ -1,0 +1,118 @@
+/* 19 January 2024 */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+ 
+*{
+    font-family: 'Merriweather', sans-serif;
+}
+
+:root {
+    --primary-color: light purple;
+    --secondary-color: #9A8C98;
+    --accent1-color: #C9ADA7;
+    --accent2-color: #FFFFFF;
+
+    --heading-font: Merriweather;
+    --paragraph-font: sans-serif;
+
+    --headline-color-on-white: purple;   
+    --headline-color-on-color: #FFFFFF; 
+    --paragraph-color-on-white: #4A4E69; 
+    --paragraph-color-on-color: #FFFFFF; 
+    --paragraph-background-color: #eb0af7  ;
+    --nav-link-color: #070707;
+    --nav-background-color: #7282e9 ;
+    --nav-hover-link-color: #FFFFFF;
+    --nav-hover-background-color: #9A8C98 ;
+}
+
+nav {
+    
+    line-height: 1em;
+    text-align: center;
+    font-size: 1em;
+}
+
+  nav  {
+    list-style-type: none;
+    display: flex;
+}
+
+  nav a {
+    padding:1em;
+    min-width: 50px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+p {
+    padding: 10px;
+}
+
+article {
+    width: 20em;
+    position: absolute;
+    float: right;
+    bottom: 45px;
+    left: 525px;
+    opacity: 75%;
+    margin: 0 0 1rem 1rem;
+    box-shadow: 0 0 30px greenyellow;
+}
+
+article img {
+    width: 200px;
+    height: auto;
+    float: right;
+}
+
+article p {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color-on-color)
+}
+
+section {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 1px;
+}
+
+section h1, h2, h3  {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+
+}
+
+section h3 {
+    margin: auto;
+}
+ 
+footer nav {
+    text-decoration: none;
+}
+.hero {
+    position: relative;
+    width:  100%;
+    height: auto;
+    background-image: url(images/hero.jpeg);
+}
+
+.title {
+    position: absolute;
+    bottom: 190px;
+    left: 250px;
+    color: greenyellow;
+    box-shadow: 0 0 30px black; 
+}
+
+
+
