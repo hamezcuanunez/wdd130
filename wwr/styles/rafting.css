@@ -86,13 +86,13 @@ section {
     padding: 1px;
 }
 
-section h1, h2, h3  {
+section h1, h2, figure  {
     font-family: var(--heading-font);
     color: var(--headline-color-on-white);
 
 }
 
-section h3 {
+section figure {
     margin: auto;
 }
  
