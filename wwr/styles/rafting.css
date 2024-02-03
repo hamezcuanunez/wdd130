@@ -101,11 +101,12 @@ section {
 
 section h1, h2 {
     font-family: var(--heading-font);
-    color: var(--headline-color-on-white);
+    color: #5f005f;
 }
 
 footer {
-    background-color: slateblue;   
+    background-color: slateblue;
+    color: rgb(255 232 255);   
     margin-top: 200px;     
     display: flex;    
     justify-content: space-around;    
