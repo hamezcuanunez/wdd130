@@ -113,6 +113,11 @@ footer {
     align-items: center;
 }
 
+footer a {
+    color: rgb(255 232 255);
+    text-decoration: none;
+}
+
 footer nav {
     text-decoration: none;
     align-content: baseline;
