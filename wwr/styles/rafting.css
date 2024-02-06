@@ -23,7 +23,7 @@
     --paragraph-color-on-white: #4A4E69; 
     --paragraph-color-on-color: #FFFFFF; 
     --paragraph-background-color: #eb0af7  ;
-    --nav-link-color: #070707;
+    --nav-link-color: #efefef;
     --nav-background-color: #7282e9 ;
     --nav-hover-link-color: #FFFFFF;
     --nav-hover-background-color: #9A8C98 ;
@@ -38,7 +38,7 @@ header {
     display: grid;
     grid-template-columns: 600px auto;
     max-width: 1300px;
-    background-color: var(--nav-background-color);
+    background-color: slateblue;
 }
 
 nav {
@@ -192,3 +192,133 @@ footer nav {
     font-size: 16px;
     color: black;
 }
+
+/* Contact Us Page */
+.employee {
+    display: flex;
+    justify-content: center;
+    
+    margin: 5px auto;
+    width: 75%;
+}
+
+.employee-row {
+    display: flex;    
+}
+
+.employee-img img {
+    margin: 10px;
+    width: 175px;
+    height: 175px;
+    object-fit: cover;    
+    border-radius: 50%;
+}
+
+.employee-text h2 {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.employee-text figcaption {
+    text-align: center;
+    padding: 1px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.contact h3 {
+    margin-top: 1em;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center; 
+    color: #5f005f;
+}
+
+.contact p {
+    text-align: center;
+    padding: 1px;
+    color: black;
+}
+
+h4{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2em;   
+    color: #5f005f;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+label{
+    display:block;
+    margin:1em 0 .2em;
+}
+  /* single-line text, checkbox, and button */
+input, select, textarea{
+    display:block;
+    width:100%;
+    padding:.3em;
+    font-size:20px;
+    background-color:#fbfbfb;
+    border:solid 1px #CCC;
+    resize:vertical;
+}
+textarea{
+    min-height:180px;
+}
+select{
+    color:indigo;
+}
+option{
+    color:blue;
+    background: lavenderBlush;
+}
+input[type=checkbox]{
+    display:inline;
+    width:auto;
+    color:red;
+}
+  
+input[type=submit]{
+    background:lightcoral;
+    margin:1em 0 0;
+    color:white;
+    border:none;
+    border-radius:8px;
+    transition:all .3s ease-out;
+}
+  
+input:focus,
+input:hover,
+select:focus,
+select:hover,
+textarea:focus,
+textarea:hover{
+background: lavenderBlush;
+}
+  
+/* hover and focus states */
+input[type=submit]:hover,
+input[type=submit]:focus{
+background: lightgreen;
+outline:none;
+}
+  
+@media screen and (min-width:600px) {
+/*  make the form 2 columns */
+    form:after{
+      content:'';
+      display:block;
+      clear:both;
+    }
+    .column{
+      width:50%;
+      padding:1em;
+      float:left;
+    }
+  }
