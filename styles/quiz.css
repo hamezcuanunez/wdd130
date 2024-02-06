@@ -13,7 +13,7 @@ body{
     width:90%;
     max-width: 800px;
     margin:50px auto;
-    font-family: Calibri, Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding:20px;
 }
 
@@ -28,12 +28,12 @@ img {
 }
 
 label{
-    display:block;
+    display:grid;
     margin:1em 0 .2em;
 }
 
 input, select, textarea{
-    display:block;    
+    display:grid;    
     padding:.3em;
     font-size:15px;
     background-color:#fbfbfb;
@@ -81,17 +81,3 @@ input[type=submit]:focus{
 background: lightgreen;
 outline:none;
 }
-
-@media screen and (min-width:600px) {
-    /*  make the form 2 columns */
-        form:after{
-          content:'';
-          display:block;
-          clear:both;
-        }
-        .column{
-          width:50%;
-          padding:1em;
-          float:left;
-        }
-      }
