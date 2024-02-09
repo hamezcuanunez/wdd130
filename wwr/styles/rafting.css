@@ -259,71 +259,68 @@ h4{
     justify-content: center;
     margin-top: 1em;
 }
-label{
-    display:block;
-    margin:1em 0 .2em;
+
+#form h2 {
+    text-align:center;
+    margin-top: 2em;
 }
-  /* single-line text, checkbox, and button */
-input, select, textarea{
-    display:block;
-    width:100%;
-    padding:.3em;
-    font-size:20px;
-    background-color:#fbfbfb;
-    border:solid 1px #CCC;
-    resize:vertical;
+#form p {
+    text-align:center;
+    padding:.4em 3em 0em;
+    color:#000000;
 }
-textarea{
-    min-height:180px;
+#my-form {
+    box-sizing:border-box;
+    margin:0 auto;
+    padding-left:6em;
+    text-align:left;
+    width:70%;
+    color:black;
 }
-select{
-    color:indigo;
+#my-form label {
+    color:#000000;
 }
-option{
-    color:blue;
-    background: lavenderBlush;
+#my-form .data-entry {
+    padding:.5em 8%;
 }
-input[type=checkbox]{
+#my-form textarea {
+    padding:.1em 8%;
+}
+#my-form p {
+    text-align:left;
+    margin:0;
+    padding:1em 0 .1em;
+}
+#my-form select {
+    margin-bottom:1em;
+    font-size:95%;
+    padding:.1em .5em;
+}
+#my-form .button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#my-form .radio {
+    white-space:nowrap;
+    display:inline-block;
+    line-height:2em;
+    margin:.1em 0;
+}
+#my-form input[type=radio]{
+    margin-right:.6em;
+}
+
+#my-form input[type=checkbox]{
+    margin-bottom: 3em;
     display:inline;
     width:auto;
     color:red;
 }
-  
-input[type=submit]{
-    background:lightcoral;
-    margin:1em 0 0;
-    color:white;
-    border:none;
-    border-radius:8px;
-    transition:all .3s ease-out;
-}
-  
-input:focus,
-input:hover,
-select:focus,
-select:hover,
-textarea:focus,
-textarea:hover{
-background: lavenderBlush;
-}
-  
-/* hover and focus states */
-input[type=submit]:hover,
-input[type=submit]:focus{
-background: lightgreen;
-outline:none;
-}
-  
-@media screen and (min-width:600px) {
-/*  make the form 2 columns */
-    form:after{
-      content:'';
-      display:block;
-      clear:both;
-    }
-    .column{
-      width:50%;
-      padding:1em;
-      float:left;
-    }
-  }
+
+
